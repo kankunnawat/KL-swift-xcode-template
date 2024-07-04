@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ___VARIABLE_sceneName___ViewController: BaseViewController {
+class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel> {
     let viewModel: ___VARIABLE_sceneName___ViewModel
 
     // MARK: - Life Cycles
