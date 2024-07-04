@@ -7,7 +7,7 @@ class ___VARIABLE_sceneName___View: UIView {
     // MARK: - Variables
     private let disposeBag = DisposeBag()
 
-    // MARK: - Cycle
+    // MARK: - Life Cycles
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()

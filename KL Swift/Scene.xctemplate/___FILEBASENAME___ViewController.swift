@@ -5,6 +5,7 @@ import RxCocoa
 open class ___VARIABLE_sceneName___ViewController: BaseViewController {
     let viewModel: ___VARIABLE_sceneName___ViewModel
 
+    // MARK: - Life Cycles
     public init(viewModel: ___VARIABLE_sceneName___ViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
@@ -14,13 +15,12 @@ open class ___VARIABLE_sceneName___ViewController: BaseViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    // UI
     private let mainView = ___VARIABLE_sceneName___View()
 
     open override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
-        setupViews()
+        setupView()
         bindViewModel()
     }
 
@@ -33,7 +33,7 @@ open class ___VARIABLE_sceneName___ViewController: BaseViewController {
 
     }
 
-    private func setupViews() {
+    private func setupView() {
         view.backgroundColor = AppAssets.Color.white.color
         view.addSubview(mainView)
         mainView.anchor(to: self)
