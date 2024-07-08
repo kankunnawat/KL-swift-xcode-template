@@ -1,4 +1,5 @@
 import UIKit
+import Domain
 
 protocol ___VARIABLE_sceneName___Router {
     func <#toNextPage#>()

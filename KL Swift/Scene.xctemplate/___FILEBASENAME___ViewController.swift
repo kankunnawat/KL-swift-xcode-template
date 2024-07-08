@@ -1,20 +1,9 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import DLS
 
 class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel> {
-    let viewModel: ___VARIABLE_sceneName___ViewModel
-
-    // MARK: - Life Cycles
-    init(viewModel: ___VARIABLE_sceneName___ViewModel) {
-        self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
-    }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
     private let mainView = ___VARIABLE_sceneName___View()
 
     override func viewDidLoad() {

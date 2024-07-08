@@ -1,5 +1,7 @@
 import RxSwift
 import RxCocoa
+import DLS
+import Domain
 
 class ___VARIABLE_sceneName___ViewModel: ViewModelType {
     private let router: ___VARIABLE_sceneName___Router
