@@ -6,7 +6,7 @@ protocol ___VARIABLE_sceneName___Router {
 }
 
 class Default___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___Router {
-    private weak var navigationController: UINavigationController
+    private weak var navigationController: UINavigationController?
     private let usecaseProvider: <#someUseCaseProvider#>
     
     init(
